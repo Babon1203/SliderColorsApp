@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3DB75A92B2E213300829D87 /* SliderColorsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB75A82B2E213300829D87 /* SliderColorsAppApp.swift */; };
+		B3DB75A92B2E213300829D87 /* SliderColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB75A82B2E213300829D87 /* SliderColorsApp.swift */; };
 		B3DB75AB2B2E213300829D87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB75AA2B2E213300829D87 /* ContentView.swift */; };
 		B3DB75AD2B2E213400829D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DB75AC2B2E213400829D87 /* Assets.xcassets */; };
 		B3DB75B02B2E213400829D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DB75AF2B2E213400829D87 /* Preview Assets.xcassets */; };
+		B3DB75B92B2E362300829D87 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB75B82B2E362300829D87 /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3DB75A52B2E213300829D87 /* SliderColorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderColorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3DB75A82B2E213300829D87 /* SliderColorsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorsAppApp.swift; sourceTree = "<group>"; };
+		B3DB75A82B2E213300829D87 /* SliderColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorsApp.swift; sourceTree = "<group>"; };
 		B3DB75AA2B2E213300829D87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3DB75AC2B2E213400829D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3DB75AF2B2E213400829D87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3DB75B82B2E362300829D87 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,8 @@
 		B3DB75A72B2E213300829D87 /* SliderColorsApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3DB75A82B2E213300829D87 /* SliderColorsAppApp.swift */,
+				B3DB75B82B2E362300829D87 /* LabelView.swift */,
+				B3DB75A82B2E213300829D87 /* SliderColorsApp.swift */,
 				B3DB75AA2B2E213300829D87 /* ContentView.swift */,
 				B3DB75AC2B2E213400829D87 /* Assets.xcassets */,
 				B3DB75AE2B2E213400829D87 /* Preview Content */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DB75B92B2E362300829D87 /* LabelView.swift in Sources */,
 				B3DB75AB2B2E213300829D87 /* ContentView.swift in Sources */,
-				B3DB75A92B2E213300829D87 /* SliderColorsAppApp.swift in Sources */,
+				B3DB75A92B2E213300829D87 /* SliderColorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
